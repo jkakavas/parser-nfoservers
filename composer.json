@@ -1,0 +1,31 @@
+{
+    "name": "abuseio/parser-nfoservers",
+    "description": "Parser addon for handling notifications from NFO Servers DDoS",
+    "version": "1.0.0",
+    "keywords": ["laravel", "abuseio", "parser", "nfoservers"],
+    "homepage": "http://abuse.io",
+    "type": "library",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Ioannis Kakavas",
+            "email": "ikakavas@noc.grnet.gr",
+            "homepage": "https://cert.grnet.gr",
+            "role": "Lead"
+        }
+    ],
+    "support": {
+        "email": "ikakavas@noc.grnet.gr",
+        "issues": "https://github.com/jkakavas/parser-nfoservers/issues",
+        "source": "https://github.com/jkakavas/parser-nfoservers"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "abuseio/parser-common": "1.1.* || dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "AbuseIO\\Parser\\Nfoservers\\": "src/"
+        }
+    }
+}
